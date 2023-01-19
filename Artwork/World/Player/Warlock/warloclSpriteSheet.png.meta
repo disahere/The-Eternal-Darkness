@@ -1,0 +1,1179 @@
+fileFormatVersion: 2
+guid: 4a8e18d342b04a440af49de13d47dc31
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: warloclSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 135
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35da0aff9aec11644b7214856086e4ad
+      internalID: -2128163956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warloclSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 135
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 601757f0baac48c449de7012bc03f866
+      internalID: 2079830650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warloclSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 135
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0af1e7a2c5b55614c89b707b148c8562
+      internalID: 1369978497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warloclSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 135
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef2976609cd567e48b1a5257c992340f
+      internalID: 582805891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warloclSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 135
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53c07cfc7f7b69e4c8b98ba017c49063
+      internalID: 302963947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warloclSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 108
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a0d7f4cfb2d6c44ba15481432830a9d
+      internalID: -1077995562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warloclSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 108
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d4beb464264e8440b4f13e5a927b611
+      internalID: 2050276894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warloclSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 108
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9414d4f109fbdb45807967bb59f2448
+      internalID: 991496738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warloclSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 108
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ade77622d7f830f4eb2a9cca871470ee
+      internalID: 348882177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warloclSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 108
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 388fbb4b7283f834bb077d7e1795f18c
+      internalID: 261561742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warloclSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 108
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a5b72854ba92f6409a2b121b12f06eb
+      internalID: 389415797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warloclSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 108
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e830364de263ca742aa1631f23568063
+      internalID: 2021339104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warloclSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 75
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5338fa0e36fcda746835039063c1e81b
+      internalID: -2027864950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warloclSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 75
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c31fa919054c1740aaccf09e63520f3
+      internalID: -984035253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warloclSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 75
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 342f0bed263a4a74ea5af44d7fbd36ed
+      internalID: -1813401516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warloclSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 75
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7222c220e70b3be4b93890c7fcf0255f
+      internalID: 426157661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warloclSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 74
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6701c8aff2eaa4049b290175b1417409
+      internalID: 223629391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warloclSpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 74
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9888bf67b2db1fa42a6fa2a45b64d9e6
+      internalID: 1295132065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warloclSpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 74
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8076315fe60a3d046af9083c3cef1755
+      internalID: -1545635829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warloclSpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 74
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9160a840116803249853cc6d5c1b3a51
+      internalID: 320979884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warloclSpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 73
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18ae915671f3963459f39025cdffcbd4
+      internalID: -459834041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warloclSpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 74
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecc7a68f3d723d0408d3e9f76d6a8672
+      internalID: -623263045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warloclSpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 73
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adef5ddf03dc76941957439ea5e5a17a
+      internalID: -588968715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warloclSpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 73
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 495893c74e2c949429094317427127fd
+      internalID: 1360207854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warloclSpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 72
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e732218991de14499268b514c90380d
+      internalID: -1455096233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warloclSpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 73
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee787c6a7975b6a41835a5cb5e7c306a
+      internalID: 39222009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warloclSpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 72
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33fd46490a36e7b48adcff7173cdc799
+      internalID: -720951632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warloclSpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 36
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ad36bba89b5e34468002656f7161646
+      internalID: -1384733721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warloclSpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 36
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 819f896c08efc12408dbb7a5b7e9ce01
+      internalID: -1836219261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warloclSpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 36
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a129e7332968b4e4d915078a8d666a34
+      internalID: 1982708449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warloclSpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 36
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04ea4655a9d384c4ea677388970e4e2e
+      internalID: 2061480949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warloclSpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 36
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c189752ce7d5d6449a016005bbb294ff
+      internalID: 79867740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warloclSpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 36
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4d556f8f0785a5428f6f4bdea643c61
+      internalID: 1898813864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warloclSpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 36
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62acdea58a6755a468f6a0e71949cd09
+      internalID: -672887303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warloclSpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 36
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dba5d00fe4a2c647b6210df3549d6ed
+      internalID: 144091918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warloclSpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 45
+        width: 15
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81d6a1be0165c6e489e952d9fd039a77
+      internalID: 56506255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warloclSpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 45
+        width: 15
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b67a7af8707296f45a9570554daee31a
+      internalID: -1482824995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warloclSpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 45
+        width: 15
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27cc4bd4e040ac24c98e19d934fcf302
+      internalID: -1238279413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warloclSpriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 45
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1888e5e6421e8ef4797a1d3b58962109
+      internalID: -1145066593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warloclSpriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 3
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51612b9997d02ab4c9083df96659adb3
+      internalID: -1316881118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warloclSpriteSheet_40
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 3
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dab7b75a5c1718944bcddc5c41a13f33
+      internalID: 1828926876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warloclSpriteSheet_41
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 3
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff9190f43ac8fce42b6d7d652db4ccae
+      internalID: -1069234328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warloclSpriteSheet_42
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 3
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 608258e273de77d4f89848f4f7cf2499
+      internalID: 1984301917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warloclSpriteSheet_43
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 2
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bcdc1a25e752904f93617a2643a88d6
+      internalID: -847548521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warloclSpriteSheet_44
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 2
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 068c5a867bfe9bf4583afdaaaca0ebd1
+      internalID: 1281604188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warloclSpriteSheet_45
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 2
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8adcd82515083f47b41fea9dfbbce41
+      internalID: 549350530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warloclSpriteSheet_46
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 2
+        width: 25
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a9c1e1a70d2f5d469cd627740dc8a23
+      internalID: -1263930730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warloclSpriteSheet_47
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 2
+        width: 30
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43e163117dbdbd946b354dcc21e2c6d6
+      internalID: 2064607999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      warloclSpriteSheet_22: -588968715
+      warloclSpriteSheet_44: 1281604188
+      warloclSpriteSheet_2: 1369978497
+      warloclSpriteSheet_21: -623263045
+      warloclSpriteSheet_6: 2050276894
+      warloclSpriteSheet_9: 261561742
+      warloclSpriteSheet_36: -1482824995
+      warloclSpriteSheet_7: 991496738
+      warloclSpriteSheet_40: 1828926876
+      warloclSpriteSheet_12: -2027864950
+      warloclSpriteSheet_34: 144091918
+      warloclSpriteSheet_14: -1813401516
+      warloclSpriteSheet_27: -1384733721
+      warloclSpriteSheet_29: 1982708449
+      warloclSpriteSheet_33: -672887303
+      warloclSpriteSheet_35: 56506255
+      warloclSpriteSheet_47: 2064607999
+      warloclSpriteSheet_38: -1145066593
+      warloclSpriteSheet_11: 2021339104
+      warloclSpriteSheet_32: 1898813864
+      warloclSpriteSheet_8: 348882177
+      warloclSpriteSheet_46: -1263930730
+      warloclSpriteSheet_4: 302963947
+      warloclSpriteSheet_18: -1545635829
+      warloclSpriteSheet_5: -1077995562
+      warloclSpriteSheet_3: 582805891
+      warloclSpriteSheet_41: -1069234328
+      warloclSpriteSheet_13: -984035253
+      warloclSpriteSheet_17: 1295132065
+      warloclSpriteSheet_43: -847548521
+      warloclSpriteSheet_10: 389415797
+      warloclSpriteSheet_26: -720951632
+      warloclSpriteSheet_42: 1984301917
+      warloclSpriteSheet_15: 426157661
+      warloclSpriteSheet_16: 223629391
+      warloclSpriteSheet_25: 39222009
+      warloclSpriteSheet_45: 549350530
+      warloclSpriteSheet_20: -459834041
+      warloclSpriteSheet_28: -1836219261
+      warloclSpriteSheet_37: -1238279413
+      warloclSpriteSheet_24: -1455096233
+      warloclSpriteSheet_19: 320979884
+      warloclSpriteSheet_39: -1316881118
+      warloclSpriteSheet_31: 79867740
+      warloclSpriteSheet_30: 2061480949
+      warloclSpriteSheet_1: 2079830650
+      warloclSpriteSheet_23: 1360207854
+      warloclSpriteSheet_0: -2128163956
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
