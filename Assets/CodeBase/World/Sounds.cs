@@ -6,28 +6,50 @@ namespace CodeBase.World
     public class Sounds : MonoBehaviour
     {
         private AudioSource _audioSource;
+        private bool _isPlayerInside;
+        private float _timeInside;
 
-        public void Start()
+        [SerializeField] private bool playContinuously = true;
+        [SerializeField] private float timeThreshold = 2f;
+
+        private void Start()
         {
             _audioSource = GetComponent<AudioSource>();
-            _audioSource.Play(0);
+            _audioSource.Play();
             _audioSource.Pause();
         }
 
-        private void OnTriggerEnter(Collider other)
+        private void Update()
         {
-            if (other.CompareTag("Player"))
+            if (_isPlayerInside || playContinuously)
             {
-                _audioSource.UnPause();
+                if (!_isPlayerInside) return;
+                _timeInside += Time.deltaTime;
+                if (_timeInside >= timeThreshold)
+                {
+                    _audioSource.UnPause();
+                }
+            }
+            else
+            {
+                _timeInside = 0f;
+                _audioSource.Pause();
             }
         }
 
-        private void OnTriggerExit(Collider other)
+        private void OnTriggerEnter2D(Collider2D other)
         {
             if (other.CompareTag("Player"))
             {
-                _audioSource.Pause();
+                _isPlayerInside = true;
             }
+        }
+
+        private void OnTriggerExit2D(Collider2D other)
+        {
+            if (!other.CompareTag("Player")) return;
+            _isPlayerInside = false;
+            _timeInside = 0f;
         }
     }
 }

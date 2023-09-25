@@ -13,7 +13,7 @@ namespace CodeBase.World
             _cameraZPosition = transform.position.z;
         }
 
-        void FixedUpdate()
+        public void FixedUpdate()
         {
             transform.position = Vector3.Lerp(transform.position, playerTransform.position, Time.deltaTime * CameraLerp);
             transform.position = new Vector3(transform.position.x, transform.position.y, _cameraZPosition);

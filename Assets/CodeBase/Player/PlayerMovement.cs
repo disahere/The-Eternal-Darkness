@@ -17,9 +17,13 @@ namespace CodeBase.Player
         private static readonly int IsRunning = Animator.StringToHash("isRunning");
 
         public Joystick joystick;
+        private bool _isColliderNull;
+        private bool _null;
 
         private void Start()
         {
+            _null = _hit.collider == null;
+            _isColliderNull = _hit.collider == null;
             _boxCollider = GetComponent<BoxCollider2D>();
             _myAnimator = GetComponent<Animator>();
         }
@@ -40,10 +44,10 @@ namespace CodeBase.Player
 
             _moveDelta = new Vector3(x, y, 0);
 
+            AudioClip soundToPlay = stepSounds[Random.Range(0, stepSounds.Count)];
             if (!stepsSound.isPlaying && moving)
             {
                 stepsSound.Play();
-                AudioClip soundToPlay = stepSounds[Random.Range(0, stepSounds.Count)];
                 stepsSound.clip = soundToPlay;
             }
 
@@ -59,14 +63,14 @@ namespace CodeBase.Player
         {
             _hit = Physics2D.BoxCast(transform.position, _boxCollider.size, 0, new Vector2(0, _moveDelta.y),
                 Mathf.Abs(_moveDelta.y * Time.deltaTime), LayerMask.GetMask("Barrier"));
-            if (_hit.collider == null)
+            if (_isColliderNull)
             {
                 transform.Translate(0, _moveDelta.y * Time.deltaTime, 0);
             }
 
             _hit = Physics2D.BoxCast(transform.position, _boxCollider.size, 0, new Vector2(_moveDelta.x, 0),
                 Mathf.Abs(_moveDelta.x * Time.deltaTime), LayerMask.GetMask("Barrier"));
-            if (_hit.collider == null)
+            if (_null)
             {
                 transform.Translate(_moveDelta.x * Time.deltaTime, 0, 0);
             }

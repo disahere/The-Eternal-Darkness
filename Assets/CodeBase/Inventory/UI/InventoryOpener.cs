@@ -1,20 +1,25 @@
 using UnityEngine;
 using UnityEngine.UI;
-using CodeBase.Interfaces;
 
-namespace CodeBase.Inventory
+namespace CodeBase.Inventory.UI
 {
-    public class InventoryOpener : MonoBehaviour, IInventoryOpener
+    internal class InventoryOpener : MonoBehaviour
     {
         private GameObject _inventoryRef;
         private bool _inventoryOpened;
         private bool _wasOpenedBefore;
         private bool _isButtonEnabled = true;
-
+        
+        public AudioSource audioSource;
+        public AudioClip closingSound;
         public Button inventoryButton;
+        private bool _isAudioSourceNotNull;
+        private bool _isClosingSoundNotNull;
 
         private void Start()
         {
+            _isAudioSourceNotNull = closingSound != null;
+            _isClosingSoundNotNull = audioSource != null;
             _inventoryRef = GameObject.Find("Inventory");
             _inventoryRef.SetActive(false);
 
@@ -64,6 +69,11 @@ namespace CodeBase.Inventory
 
         public void CloseInventory()
         {
+            if (_isAudioSourceNotNull && _isClosingSoundNotNull)
+            {
+                audioSource.PlayOneShot(closingSound);
+            }
+
             _inventoryRef.SetActive(false);
             _inventoryOpened = false;
         }

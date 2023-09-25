@@ -9,7 +9,7 @@ namespace CodeBase.Manager
 
         private void Start()
         {
-            foreach (string sceneName in scenesToLoad)
+            foreach (var sceneName in scenesToLoad)
             {
                 if (!SceneManager.GetSceneByName(sceneName).isLoaded)
                 {

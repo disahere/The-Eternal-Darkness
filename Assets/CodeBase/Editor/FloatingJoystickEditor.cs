@@ -1,21 +1,22 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using UnityEditor;
 using UnityEngine;
-using UnityEditor;
 
-[CustomEditor(typeof(FloatingJoystick))]
-public class FloatingJoystickEditor : JoystickEditor
+namespace CodeBase.Editor
 {
-    public override void OnInspectorGUI()
+    [CustomEditor(typeof(FloatingJoystick))]
+    public class FloatingJoystickEditor : JoystickEditor
     {
-        base.OnInspectorGUI();
-
-        if (background != null)
+        public override void OnInspectorGUI()
         {
-            RectTransform backgroundRect = (RectTransform)background.objectReferenceValue;
-            backgroundRect.anchorMax = Vector2.zero;
-            backgroundRect.anchorMin = Vector2.zero;
-            backgroundRect.pivot = center;
+            base.OnInspectorGUI();
+
+            if (background != null)
+            {
+                RectTransform backgroundRect = (RectTransform)background.objectReferenceValue;
+                backgroundRect.anchorMax = Vector2.zero;
+                backgroundRect.anchorMin = Vector2.zero;
+                backgroundRect.pivot = center;
+            }
         }
     }
 }
